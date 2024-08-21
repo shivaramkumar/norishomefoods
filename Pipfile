@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "5.1.*"
+ambient-toolbox = "*"
+django-pony-express = "*"
+jinja2 = "*"
+
+[dev-packages]
+ambient-package-update = "*"
+typer = "*"
+
+[requires]
+python_version = "3.12"
